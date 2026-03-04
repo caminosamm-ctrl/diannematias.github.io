@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Green Leaf Café</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #1b5e20;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+        }
+
+        .hero p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .price {
+            color: #1b5e20;
+            font-weight: bold;
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: #e8f5e9;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .menu-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero">
+    <h1> Green Leaf Café</h1>
+    <p>"Fresh Brew, Fresh You!"</p>
+</div>
+
+<!-- About Section -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>Green Leaf Café is a cozy place where students and friends enjoy
+    freshly brewed coffee, delicious pastries, and relaxing vibes.</p>
+</section>
+
+<!-- Menu Section -->
+<section id="menu">
+    <h2>Our Best Sellers</h2>
+
+    <div class="menu-container">
+        <div class="card">
+            <h3> Iced Coffee</h3>
+            <p>Rich and refreshing coffee blend.</p>
+            <p class="price">₱85</p>
+            <img src= "iced-coffee.jpg" width="200" height="200" alt="Creamy Iced Coffee" title="The Best Coffee You'll Ever Taste">
+        </div>
+
+        <div class="card">
+            
+            <h3> Matcha Latte</h3>
+            <p>Premium matcha with creamy milk.</p>
+            <p class="price">₱95</p>
+            <img src= "jason-leung-Z-hvocTfR_s-unsplash.jpg" width="200" height="200" alt="Matcha Latte" title="The Best Matcha You'll Ever Taste">
+        </div>
+
+        <div class="card">
+            <h3> Chocolate Cake</h3>
+            <p>Moist and sweet chocolate slice.</p>
+            <p class="price">₱90</p>
+            <img src= "hosniye-sadeghi-ufhXE1mtqpU-unsplash.jpg" width="200" height="200" alt="Chocolate Cake Slice" title="The Best Cake You'll Ever Taste">
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: greenleafcafe@email.com</p>
+    <p>Phone: 0912-345-6789</p>
+    <p>Visit us: Purok 3, Pampanga City</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    © 2026 Green Leaf Café | All Rights Reserved
+</footer>
+
+</body>
+</html>
